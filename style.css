@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4b3c75;;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 50px;
+  font-weight:  500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#game {
+  height: 60vmin;
+  width: 60vmin;
+  max-width: 100%;
+  /* min-width: 220px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  color: #140830;
+  font-size: 8vmin;
+  border-radius: 10px;
+  border: none;
+  background-color: #caf4ff;
+  box-shadow: 5px 5px 5px #a0deff;
+}
+
+#reset-btn {
+  height: 10vmin;
+  width: 20vmin;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background-color: lavenderblush;
+  text-align: center;
+  font-size: 3vmin;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px #a0deff;
+}
+
+.new-btn {
+  margin-top: 5%;
+  height: 10vmin;
+  width: 20vmin;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background-color: lavenderblush;
+  text-align: center;
+  font-size: 3vmin;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px #a0deff;
+}
+
+.hide {
+  display: none;
+}
+
+.winner-name {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 5vmin;
+  color: lightcoral;
+}
